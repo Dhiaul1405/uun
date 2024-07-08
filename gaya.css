@@ -1,0 +1,417 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #003366;
+    color: white;
+}
+
+.top-bar {
+    background-color: #002244;
+    padding: 10px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.site-title h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.site-title p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.contact-info span {
+    margin-left: 15px;
+}
+
+.contact-info i {
+    margin-right: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav  li {
+   margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #003366;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+
+/* visi dan misi */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.content-box, .side-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.content-box {
+    width: 65%;
+}
+
+.side-box {
+    width: 30%;
+    text-align: center;
+}
+
+.side-box img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.footer-box {
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.form-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-box h2 {
+    margin-top: 0;
+}
+
+.form-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box label {
+    margin-top: 10px;
+}
+
+.form-box input, .form-box textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-box button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #45a049;
+}
+
+
+/* profil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.content-box, .side-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.content-box {
+    width: 65%;
+}
+
+.side-box {
+    width: 30%;
+    text-align: center;
+}
+
+.side-box img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+.subscription-box {
+    margin-top: 20px;
+}
+
+/* footer */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+}
+
+.contact-us, .tags, .follow-us {
+    flex: 1;
+    margin: 10px;
+}
+
+.contact-us h2, .tags h2, .follow-us h2 {
+    color: orange;
+}
+
+.contact-us p, .tags button {
+    margin: 5px 0;
+}
+
+.tags button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.follow-us a {
+    color: white;
+    font-size: 24px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #0055a5;
+    padding: 10px 0;
+}
+
+/* galeri */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* contact */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 28%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+.map {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1a73e8;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.profile h2, .profile h3 {
+    text-align: center;
+}
+
+.profile p {
+    text-align: center;
+}
+
+.profile a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+
+.subscribe {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subscribe input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribe button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #1a73e8;
+}
+
+.ads img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
